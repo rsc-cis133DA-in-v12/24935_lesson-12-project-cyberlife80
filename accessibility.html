@@ -1,70 +1,139 @@
 <!DOCTYPE html>
-<html>
+<!--
+Course: CIS133DA
+Section: # 24935
+Lesson: 12
+
+Documented Errors
+Missing title: Added title
+Missing alt tag: Created alt tag.
+h1 unclosed: Closed header </h1>
+h3 closed with incorrect tag: Added correct closing tag </h3>
+Mis matched tag elements <td></th>:
+Corrected tag element     
+Open tag element <th>: Closed element <th></th> 
+Open tag element <th>: Closed element <th></th>
+Corrected comment formatting: Fixed by adding missing -
+-->
+<html lang="en">
 
 <head>
-    <title></title>
+    <title>Website Accessibility Page</title>
     <meta charset="UTF-8">
-    <meta name="author" content="First Last">
+    <meta name="author" content="Tremayne Nunley">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>Accessibility<h1>
+        <h1>Accessibility</h1>
         <nav>
-            <a href="#">Accessibility</a>
+            <a href="#">Accessibility</a> 
         </nav>
     </header>
 
     <main>
+        
         <h2>Our Commitment to Accessibility</h2>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus libero id fringilla porttitor. Mauris
-            lacinia lorem sit amet nisl dignissim vulputate. Donec ut feugiat libero. Integer scelerisque ex at ex
-            tempor, porta lacinia felis euismod. Mauris at aliquet velit. Sed eu nibh eu metus tristique porttitor
-            euismod quis felis. Proin ac purus elementum, condimentum odio eget, feugiat turpis. Duis dignissim eu est
-            rutrum accumsan. Fusce dapibus finibus arcu in pharetra. Sed tempor consequat placerat. Vivamus convallis
-            sapien eget eros hendrerit, eu lobortis justo rutrum. Suspendisse sit amet leo metus.</p>
+        <p>We are dedicated to ensuring our website is accessible to all user visiting our website.</p>
 
-        <img src="access-image.jpg">
+        
 
-        <h3>Web Users and Web Accessibility</h5>
+        <img src="images/access-image.jpg" alt="Various depictions of visual disabilities indicators.">
+    <br><br>
+        <h3>Web Users and Web Accessibility</h3>
             <table>
                 <tr>
                     <th>Disability</th>
                     <th>Description</th>
-                    <td>Common Barriers</th>
-                    <th>Accessibility Principles to Apply</th>
+                    <th>Common Barriers</th>
+                    <th>Principles to Apply</th> 
                 </tr>
                 <tr>
-                    <td>Auditory</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <th>Auditory</th>
+                    <td>Auditory disabilities range from mild or moderate hearing loss in one or both ears (“hard of hearing”) to substantial and uncorrectable hearing loss in both ears (“deafness”). Some people with auditory disabilities can hear sounds but sometimes not sufficiently to understand all speech, especially when there is background noise. This can include people using hearing aids.</td>
+                    <td>Audio content, such as videos with voices   and sounds, without captions or transcripts.
+                    Media players that do not display captions and that do not provide volume controls.
+                    Media players that do not provide options to adjust the text size and colors for captions.
+                    Web-based services, including web applications, that rely on interaction using voice only.
+                    Lack of sign language to supplement important information and text that is difficult to read.</td>
+                    <td>The Perceivable principle focuses on ways a user receives information through the senses, like sight, hearing, and touch. It provides short equivalents for images, including icons, buttons, and graphics and a description of the data represented on graphs, diagrams and illustrations including short descriptions of non-text content such as audio and video files.</td>
                 </tr>
                 <tr>
-                    <td>Cognitive and Neurological</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <th>Cognitive and Neurological</th>
+                    <td>Cognitive, learning, and neurological disabilities involve neurodiversity and neurological disorders, as well as behavioral and mental health disorders that are not necessarily neurological. They may affect any part of the nervous system and impact how well people hear, move, see, speak, and understand information. Cognitive, learning, and neurological disabilities do not necessarily affect the intelligence of a person.</td>
+                    <td>Complex navigation mechanisms and page layouts that are difficult to understand and use.
+                        Complex sentences that are difficult to read and unusual words that are difficult to understand.
+                        Long passages of text without images, graphs, or other illustrations to highlight the context.
+                        Moving, blinking, or flickering content, and background audio that cannot be turned off.
+                        Web browsers and media players that do not provide mechanisms to suppress animations and audio.
+                        Visual page designs that cannot be adapted using web browser controls or custom style sheets.</td>
+                    <td>Operable user interface and navigation
+                        Features available on the keyboard
+
+                        Operable user interface and navigation
+Features available on the keyboard
+Many people don't use a mouse and rely on the keyboard to interact with the web. This requires that all functionality be keyboard usable, including form, input, and other UI components.
+
+Keyboard accessibility includes:
+
+Any functionality available at the mouse must also be available on the keyboard
+Keyboard focus should not be trapped in any part of the content
+Browsers, content production tools, and other tools must be keyboard usable
+Being compliant with this requirement helps people who only use the keyboard, including those using an alternate keyboard, ergonomic keyboard, on-screen virtual keyboard, or switch. It also helps people using speech recognition software to interact with websites and to dictate text through the keyboard interface.
+                    
+                    </td>
                 </tr>
                 <tr>
-                    <td>Physical</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <th>Physical</th>
+                    <td>Physical disabilities (sometimes called “motor disabilities”) include weakness and limitations of muscular control (such as involuntary movements including tremors, lack of coordination, or paralysis), limitations of sensation, joint disorders (such as arthritis), pain that impedes movement, and missing limbs.
+
+                    </td>
+                    <td>Websites, web browsers, and authoring tools that do not provide full keyboard support.
+                        Insufficient time limits to respond or to complete tasks, such as to fill out online forms.
+                        Controls, including links with images of text, that do not have equivalent text alternatives.
+                        Missing visual and non-visual orientation cues, page structure, and other navigational aids.
+                        Inconsistent, unpredictable, and overly complicated navigation mechanisms and page functions.</td>
+                    <td>Understandable information and user interface
+                        The text is readable and understandable
+                        Content authors must ensure that textual content is readable and understandable by as many people as possible, including when the content is vocalized by text-to-speech. Such content:
+                        
+                        Identifies the primary language of the web page, such as Arabic, Dutch, or Korean
+                        Identifies the language of text passages, foreign expressions, or other parts of the web page
+                        Provides definitions for unusual words, phrases, idioms, and abbreviations
+                        Uses the clearest and simplest language, or provides a simplified version.</td>
                 </tr>
                 <tr>
-                    <td>Speech</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <th>Speech</th>
+                    <td>Speech disabilities include difficulty producing speech that is recognizable by others or by voice recognition software. For example, the loudness or clarity of someone’s voice might be difficult to understand.</td>
+                    <td>Web-based services, including web applications, that rely on interaction using voice only.
+                        Websites that offer phone numbers as the only way to communicate with the organizations.</td>
+                    <td>Robust content and reliable interpretation
+                        Content is compatible with current and future user software
+                        Robust content is compatible with multiple browsers, helper tools, and other user agents. This includes the following tasks:
+                        
+                        Ensure that the code can be interpreted reliably, for example by ensuring that it is valid
+                        Provide a name, role, and value for each of the non-standard UI elements
+                        Being compliant with this requirement helps maximize compatibility with current user agents, including assistive technologies. In particular, it allows assistive technologies to reliably interpret content, and present and operate it in different ways. This includes buttons, input fields, and other non-standard (scripted) controls.</td>
                 </tr>
                 <tr>
-                    <td>Visual</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <th>Visual</th>
+                    <td>Visual disabilities range from mild or moderate vision loss in one or both eyes (“low vision”) to substantial and uncorrectable vision loss in both eyes (“blindness”). Some people have reduced or lack of sensitivity to certain colors (“color blindness”), or increased sensitivity to bright colors. These variations in perception of colors and brightness can be independent of the visual acuity.</td>
+                    <td>Images, controls, and other structural elements that do not have equivalent text alternatives.
+                        Text, images, and page layouts that cannot be resized, or that lose information when resized.
+                        Missing visual and non-visual orientation cues, page structure, and other navigational aids.
+                        Video content that does not have text or audio alternatives, or an audio-description track.
+                        Inconsistent, unpredictable, and overly complicated navigation mechanisms and page functions.
+                        Text and images with insufficient contrast between foreground and background color combinations.
+                        Websites, web browsers, and authoring tools that do not support the use of custom color combinations.
+                        Websites, web browsers, and authoring tools that do not provide full keyboard support.</td>
+                    <td>Web Accessibility Standards
+                        Web accessibility relies on several components that work together. Some of them are:
+                        
+                        Web content: This term applies to any part of a website, including text, images, forms, and multimedia, as well as any code, script, application, and so on.
+                        User agents: software used to access web content, including desktop graphical browsers, voice browsers, mobile browsers, media players, plug-ins, and certain assistive technologies.
+                        </td>
                 </tr>
             </table>
 
@@ -75,44 +144,102 @@
                     this brief survey and leave us your name and email address if you'd like us to get back in contact
                     with you.</p>
 
-                <h3>Feedback Type</h3>
+                <fieldset><legend><h2>Feedback Type</h2>
                 <p>What type of feedback would you like to share? <em>Please select all that apply</em>:</p>
+                   <label><input type="checkbox" name="Type" value="Suggestion">Suggestion on how to improve Accessibility on the website</label><br><br>
+                <label><input type="checkbox" name="Type" value="Issue">Issue with the Accessibility of the website</label><br><br>
+                <label><input type="checkbox" name="Type" value="Comment">Share a comment about how our Accessibility features
+                helped you or others</label></legend></fieldset><br>
+                <fieldset><legend><h3>Satisfaction</h3>
+                <p>How satisfied are you with the Accessibility features we provide?</p><br><br>
+                <label><input type="radio" name="Satisfaction" value="5 - Very Satisfied">5 - Very Satisfied</label><br>
+                <label><input type="radio" name="Satisfaction" value="4">4</label><br>
+                <label><input type="radio" name="Satisfaction" value="3">3</label><br>
+                <label><input type="radio" name="Satisfaction" value="2">2</label><br>
+                <label><input type="radio" name="Satisfaction" value="1">1</label><br>
+                <label><input type="radio" name="Satisfaction" value="0 - Very Dissatisfied">0 - Very Dissatisfied</label></legend></fieldset><br>
 
-                <input type="checkbox" name="Type" value="Suggestion"> Suggestion on how to improve Accessibility on the
-                website<br>
-                <input type="checkbox" name="Type" value="Issue"> Issue with the Accessibility of the website<br>
-                <input type="checkbox" name="Type" value="Comment"> Share a comment about how our Accessibility features
-                helped you or others<br>
+                <label><h3>Improvements</h3>
+                <p>Please enter any feedback you have to provide you with a better service:</p><br>
+                <textarea name="Feedback" rows="5" cols="60"></textarea></label>
+                <br>
 
-                <h3>Satisfaction</h3>
-                <p>How satisfied are you with the Accessibility features we provide?</p>
-
-                <input type="radio" name="Satisfaction" value="5 - Very Satisfied"> 5 - Very Satisfied<br>
-                <input type="radio" name="Satisfaction" value="4"> 4<br>
-                <input type="radio" name="Satisfaction" value="3"> 3<br>
-                <input type="radio" name="Satisfaction" value="2"> 2<br>
-                <input type="radio" name="Satisfaction" value="1"> 1<br>
-                <input type="radio" name="Satisfaction" value="0 - Very Dissatisfied"> 0 - Very Dissatisfied<br>
-
-                <h3>Improvements</h3>
-                <p>Please enter any feedback you have to provide you with a better service:<br>
-
-                    <textarea name="Feedback" rows="5" cols="60"></textarea>
-                </p><br>
-
-                <h3>Contact Details (Optional)</h3>
-                Name: <input type="text" name="FirstName"><br>
-                Email Address: <input type="email" name="EmailAddress"><br>
-
-                <input type="submit" value="Submit">
-
+            <label><h3>Contact Details (Optional)</h3>
+            Name:<input type="text" name="FirstName"></label>
+                <br><br>
+                <label>Email Address:<input type="email" name="EmailAddress">
+            <br><br>
+            <label>Submit:<input type="submit" value="Submit">
+            </label>
             </form>
     </main>
     <footer>
-        <!- Citation for image used on the page ->
+        <!--Citation for image used on the page--> 
             <p style="text-align:center;">Renma, Cris (2016). [Untitled photograph of different disabilities]. Retrieved
                 from <a href="https://pixabay.com/en/accessibility-disability-1682903/">Pixabay</a></p>
     </footer>
 </body>
+<!--
+ List of Errors:
+    
+ 13 Errors - 12 X Missing form label, 1 X Language missing or invalid
+ 23 Contrast Errors - 23 X Very low contrast
+ 39 Alerts - 2 X Missing fieldset, 1 X Skipped heading level, 36 X Very small text  
+ 1 Features - 1 X Alternative text  
+ 17 Structural Elements - 17 Structural Elements
+1 X Data table
+4 X Table header cell
+Table header cell 1Table header cell 2Table header cell 3Table header cell 4More information
+2 X Heading level 1
+1 X Heading level 2
+5 X Heading level 3
+Heading level 3 1Heading level 3 2Heading level 3 3Heading level 3 4Heading level 3 5More information
+1 X Header
+1 X Navigation
+1 X Main content
+1 X Footer
 
+Corrections:
+
+Added <fieldset> <legend> and <label> tag elements to appropriate form/groups eg. checkbox/radio groups
+
+Added a language element to the html -<html lang="en">
+Change title to align right
+
+Changed Nav button to float right
+Changed Nav Padding size to increase.
+Changed Nav button and font color to adjust contrast visibility
+Changed page background color
+Changed page font color
+Changed page font size
+
+Changed table th,td background color
+
+(Replaced the following tags with the proper
+table header tags, which applied the bold feature to the text also this allowed the tags to be styled correctly according to the stylesheet style choices such as blue background
+
+Replaced <td> for <th> tags
+
+Common Barriers
+Accessibility
+Principles to Apply
+Auditory
+Disability
+Description	Common Barriers	
+Auditory
+Cognitive and Neurological
+Physical
+Speech
+Visual
+
+Changed footer text color
+(Added to stylesheet to change footer link color for visibility
+a{
+color: aqua;)
+
+
+
+
+--> 
 </html>
+
