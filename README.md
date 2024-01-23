@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13503068&assignment_repo_type=AssignmentRepo)
 # Lesson 12 Project
 The client is back for a last time with a request for you to help create a page that explains accessibility issues. They’ve provided you with instruction to update the page to fit the latest accessibility standards. They’ve also asked you to validate the page and make changes as you see fit so that the page passes the WAVE Tool, HTML Validator, and CSS Validator.
 
