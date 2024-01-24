@@ -14,16 +14,17 @@ Fixed misspellings such as width.
 
 */
 body {
-    background: #fff; color: #000;
+    background-color: #eee; /*Fixed property name*/
     font-family: Ariel, sans-serif;
     font-size: 14px;
-    color: black;
+   color: #02333a; /*Adjusted color for accessibility*/
 }
 
-header { width: 80%;
-padding: 20px 0px;
-margin: 0 auto;
-text-align: center;
+header { 
+    width: 80%;
+    padding: 20px 0px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 main {
@@ -32,13 +33,12 @@ main {
     margin: 0 auto;
 }
 
-nav a {
+nav a { /*Adjusted colors for accessibility*/
     margin: 10px;
     padding: 10px;
-    background-color: #082bf1;
-    color: #fff;
+    background-color: #185f80;
+    color: #ffffff;
     text-decoration: none;
-    float: right;
 }
 
 h1,
@@ -47,17 +47,10 @@ h3 {
     font-family: Georgia, serif;
 }
 
-h1 {
-text-align: left;
-
-}
-
 img {
     display: block;
+    margin: auto;
     width: 300px;
-  padding-bottom: 5px;
-  padding-top: 5px;
-   
 }
 
 table {
@@ -67,30 +60,16 @@ table {
 table,
 th,
 td {
-    border: 1px solid #FFF;
-    background-color: #cfcece; border-collapse: collapse;
+    border: 1px solid #000;/*Adjusted color for accessibility*/
+    background-color: #ffffd9; /*Added semi-colon, adjusted color for accessibility*/ 
+    border-collapse: collapse;
     padding: 10px;
-   
-   
 }
 
 th {
     background-color: #185f80;
-    color: #FFF;
+    color: #ffffff; /*Added color for accessibility*/
 }
-
-fieldset{
-    background-color: #fff;
-    color: #000;
-    padding: 5px;
- 
-    
-
-
-
-}
-
-
 
 footer {
     width: 80%;
@@ -101,7 +80,6 @@ footer {
     color: #FFF;
 }
 
-a{
-color: aqua;
-
+footer a {
+    color: #000000; /*Added style for accessibility*/
 }
